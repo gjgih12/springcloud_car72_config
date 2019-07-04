@@ -1,15 +1,7 @@
 
 
-mybatis:
-  mapper-locations: mapper/*.xml
-
 eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8080/eureka/
       
-
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
