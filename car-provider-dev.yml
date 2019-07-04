@@ -1,0 +1,18 @@
+
+server:
+  port: 8081
+
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/geng71?useUnicode=true&characterEncoding=utf-8
+    username: erzhu
+    password: 123
+
+mybatis:
+  mapper-locations: mapper/*.xml
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8080/eureka/
