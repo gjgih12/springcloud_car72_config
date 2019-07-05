@@ -5,9 +5,4 @@ spring:
     url: jdbc:mysql://localhost:3306/geng71?useUnicode=true&characterEncoding=utf-8
     username: erzhu
     password: 123
-
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
       
