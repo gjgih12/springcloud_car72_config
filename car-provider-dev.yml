@@ -5,4 +5,8 @@ spring:
     url: jdbc:mysql://localhost:3306/geng71?useUnicode=true&characterEncoding=utf-8
     username: erzhu
     password: 123
-      
+  
+  redis:
+    host: 192.168.1.148
+    port: 6379
+    password: 123456
